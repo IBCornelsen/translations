@@ -12,5 +12,5 @@ jobs:
         uses: simplelocalize/download@v2.1
         with:
           apiKey: 8b0540E5C442a6ee713c270a7dE98C648991701B81f47b9a
-          downloadPath: ./{lang}/translations.json
+          downloadPath: ./translations/{lang}.json
           downloadFormat: single-language-json
